@@ -1,29 +1,29 @@
 
-# ⚡ VEKO GO X - Anonymous Load Testing Engine + VEKO DOME
+#  VEKO GO X - Anonymous Load Testing Engine + VEKO DOME
 
 **VEKO GO X** is the world's first hybrid CLI tool that combines powerful load testing with complete network anonymity. With its integrated anonymization system — **VEKO DOME** — this tool lets you perform high-concurrency HTTP/HTTPS stress tests **without exposing your real IP**, DNS, or fingerprint.
 
 ---
 
-## 🌍 What is VEKO GO X?
+##  What is VEKO GO X?
 
 VEKO GO X is a modern, modular HTTP/HTTPS load testing engine designed for developers, researchers, and cybersecurity professionals. It can simulate tens to thousands of virtual users (VUs) and routes traffic through anonymizing layers like proxy rotators, the Tor network, and DNS-over-HTTPS (DoH).
 
 ---
 
-## 🕵️ What is VEKO DOME?
+##  What is VEKO DOME?
 
 **VEKO DOME** is the anonymization layer of VEKO GO X, designed to ensure full user anonymity during network testing or scraping. It includes:
 
-- ✅ Dynamic Proxy Rotation (HTTP, SOCKS5)
-- ✅ Integration with local Tor network (127.0.0.1:9050)
-- ✅ DNS-over-HTTPS resolver (bypass ISP DNS)
-- ✅ IP rotation & spoofing (in development)
-- ✅ Passive fingerprint hiding (planned)
+-  Dynamic Proxy Rotation (HTTP, SOCKS5)
+-  Integration with local Tor network (127.0.0.1:9050)
+-  DNS-over-HTTPS resolver (bypass ISP DNS)
+-  IP rotation & spoofing (in development)
+-  Passive fingerprint hiding (planned)
 
 ---
 
-## 🎯 Why VEKO GO X Exists
+##  Why VEKO GO X Exists
 
 - To provide a portable, anonymous load testing alternative
 - To help users stress test services or APIs without exposing identity
@@ -32,21 +32,21 @@ VEKO GO X is a modern, modular HTTP/HTTPS load testing engine designed for devel
 
 ---
 
-## 🚀 Core Features
+##  Core Features
 
 | Feature             | Description |
 |---------------------|-------------|
-| 🔁 Multi-Virtual Users (VU) | Simulate high concurrent load |
-| 🌐 Proxy & Tor Support      | Route traffic anonymously |
-| 🔐 DNS-over-HTTPS (DoH)     | Prevent DNS leak |
-| 📦 Build as `.exe` Portable | Can be built into a standalone binary |
-| 📈 JSON/CSV Logging         | Real-time result output |
-| 🧩 Modular Design           | CLI, engine, output, and anonymity layers are decoupled |
-| ✅ Cross-Platform CLI       | Works on Node.js or as native executable |
+|  Multi-Virtual Users (VU) | Simulate high concurrent load |
+|  Proxy & Tor Support      | Route traffic anonymously |
+|  DNS-over-HTTPS (DoH)     | Prevent DNS leak |
+|  Build as `.exe` Portable | Can be built into a standalone binary |
+|  JSON/CSV Logging         | Real-time result output |
+|  Modular Design           | CLI, engine, output, and anonymity layers are decoupled |
+|  Cross-Platform CLI       | Works on Node.js or as native executable |
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 veko-go-x/
