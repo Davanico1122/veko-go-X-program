@@ -1,29 +1,29 @@
-# ⚡ VEKO GO X - Anonymous Load Testing System + VEKO DOME
+#  VEKO GO X - Anonymous Load Testing System + VEKO DOME
 
 **VEKO GO X** adalah sistem uji beban jaringan (load testing) canggih yang **pertama di dunia** menggabungkan performa tinggi, anonimitas koneksi, dan portabilitas dalam satu alat tunggal berbasis CLI. Tool ini dirancang khusus untuk developer, peneliti jaringan, ethical hacker, dan profesional QA yang ingin melakukan pengujian secara intensif namun tetap terlindungi secara privasi.
 
 ---
 
-## 🌍 Apa Itu VEKO GO X?
+##  Apa Itu VEKO GO X?
 
 VEKO GO X adalah engine uji beban (load test engine) berbasis HTTP/HTTPS yang mampu mensimulasikan puluhan hingga ribuan Virtual Users (VU) secara paralel. Tidak seperti tool lainnya, VEKO GO X terintegrasi langsung dengan sistem **anonimitas** dan **lapisan keamanan koneksi** bernama VEKO DOME — sebuah sistem yang memungkinkan pengguna menyamarkan IP melalui rotasi proxy, jaringan Tor, dan DNS-over-HTTPS.
 
 ---
 
-## 🔐 Apa Itu VEKO DOME?
+##  Apa Itu VEKO DOME?
 
 **VEKO DOME** adalah modul keamanan jaringan tambahan untuk VEKO GO X. Tujuannya adalah melindungi identitas dan lokasi pengguna selama melakukan pengujian beban.
 
 ### Fitur VEKO DOME:
-- ✅ **Proxy rotator otomatis** (HTTP, SOCKS5)
-- ✅ **Koneksi via Tor** (port 9050 lokal)
-- ✅ **DNS-over-HTTPS resolver** untuk menghindari DNS leak
-- ✅ **Spoofing dan masking fingerprint (dalam pengembangan)**
-- ✅ **Deteksi & rotasi IP publik**
+-  **Proxy rotator otomatis** (HTTP, SOCKS5)
+-  **Koneksi via Tor** (port 9050 lokal)
+-  **DNS-over-HTTPS resolver** untuk menghindari DNS leak
+-  **Spoofing dan masking fingerprint (dalam pengembangan)**
+-  **Deteksi & rotasi IP publik**
 
 ---
 
-## 🎯 Tujuan VEKO GO X
+##  Tujuan VEKO GO X
 
 - Memberikan alat pengujian beban yang **ringan, kuat, dan portabel**
 - Melindungi identitas pengguna dalam pengujian sistem jaringan
@@ -33,22 +33,22 @@ VEKO GO X adalah engine uji beban (load test engine) berbasis HTTP/HTTPS yang ma
 
 ---
 
-## 🚀 Fitur Unggulan
+##  Fitur Unggulan
 
 | Fitur | Deskripsi |
 |-------|-----------|
-| 🔁 Virtual Users (VU) | Menjalankan banyak pengguna virtual bersamaan untuk menguji kestabilan server |
-| 🕵️ Anonimitas Jaringan | Koneksi melalui proxy, Tor, dan DoH |
-| 📈 Logging Otomatis | Output disimpan otomatis dalam format `.json` atau `.csv` |
-| ⚙️ CLI Modular | Parameter lengkap: `--url`, `--vus`, `--duration`, `--output`, `--proxy`, `--tor` |
-| 🧱 Modular Coding | Semua modul terpisah: engine, CLI, output, anonimitas |
-| 📦 Build `.exe` | Bisa dibuild jadi executable portabel untuk Windows |
-| 🧪 Testable | Mendukung file skrip pengujian manual via folder `/test` |
-| 🔍 Kompatibel | Bisa dijalankan via Node.js atau dibuild ke `.exe` dengan `pkg` |
+|  Virtual Users (VU) | Menjalankan banyak pengguna virtual bersamaan untuk menguji kestabilan server |
+|  Anonimitas Jaringan | Koneksi melalui proxy, Tor, dan DoH |
+|  Logging Otomatis | Output disimpan otomatis dalam format `.json` atau `.csv` |
+|  CLI Modular | Parameter lengkap: `--url`, `--vus`, `--duration`, `--output`, `--proxy`, `--tor` |
+|  Modular Coding | Semua modul terpisah: engine, CLI, output, anonimitas |
+|  Build `.exe` | Bisa dibuild jadi executable portabel untuk Windows |
+|  Testable | Mendukung file skrip pengujian manual via folder `/test` |
+|  Kompatibel | Bisa dijalankan via Node.js atau dibuild ke `.exe` dengan `pkg` |
 
 ---
 
-## 🧱 Struktur Proyek VEKO GO X
+##  Struktur Proyek VEKO GO X
 
 ```
 veko-go-x/
